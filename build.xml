@@ -23,6 +23,7 @@
    <arg value="-l" />
     <fileset dir=".">
       <include name="**/*.php" />
+      <include name="**/*.inc" />
     </fileset>
   </apply>
  </target>
