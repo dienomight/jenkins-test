@@ -33,7 +33,7 @@
  </target>
 
  <target name="jslint" description="Run the JSLint tool on JS files">
-  <fileset dir="public/scripts" id="jsfiles.raw">
+  <fileset dir="${basedir}" id="jsfiles.raw">
    <include name="**/*.js" />
    <exclude name="**/*.min.js" />
   </fileset>
