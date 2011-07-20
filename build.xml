@@ -129,4 +129,5 @@
  </target>
 
  <target name="build" depends="clean,checkphp,jslint,parallelTasks,phpunit,phpcb"/>
+ <!-- <target name="build" depends="clean,checkphp,jslint,parallelTasks,phpcb"/> -->
 </project>
