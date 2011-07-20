@@ -3,7 +3,7 @@
 class Demo {
     
     function foo() {
-        retur 'bar';
+        return 'bar';
     }
     
 }
