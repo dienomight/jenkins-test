@@ -98,11 +98,11 @@
  </target>
 
  <target name="phpcs"
-         description="Generate checkstyle.xml using PHP_CodeSniffer">
+         description="Generate checkstyle.xml using PHP_CodeSniffer and Drupal Code Sniffer">
   <exec executable="phpcs" output="/dev/null">
    <arg value="--report=checkstyle" />
    <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
-   <arg value="--standard=${basedir}/build/phpcs.xml" />
+   <arg value="--standard=drupalcs" />
    <arg path="${source}" />
   </exec>
  </target>
