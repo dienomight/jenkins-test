@@ -6,5 +6,11 @@ class DemoCopyPaste {
 	$str = 'bar';	
         return str;
     }
+
+    function foo2() {
+	$str = 'bar';	
+        return str;
+    }
+	
     
 }
