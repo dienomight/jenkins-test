@@ -3,7 +3,7 @@
 class Demo {
     
     function foo() {
-	var $s = 'bar';	
+	$s = 'bar';	
         return s;
     }
     
