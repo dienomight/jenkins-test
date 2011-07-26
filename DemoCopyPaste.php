@@ -4,7 +4,7 @@ class DemoCopyPaste {
     
     function foo() {
 	$lets = 'create'
-	$more = 'duplicated';
+	$someMore = 'duplicated';
 	$lines = 'to make';
 	$phpcpd = 'angry';
 	$str = 'bar';	
@@ -13,7 +13,7 @@ class DemoCopyPaste {
 
     function foo2() {
 	$lets = 'create'
-	$more = 'duplicated';
+	$someMore = 'duplicated';
 	$lines = 'to make';
 	$phpcpd = 'angry';
 	$str = 'bar';	
