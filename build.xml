@@ -68,11 +68,16 @@
   </exec>
  </target>
 
+ 
+ <taskdef name="phpmd" classname="org.phpmd.ant.PHPMDTask"/>
+ 
  <target name="phpmd"
 	description="Generate pmd.xml using PHPMD"> 
-  <exec executable="phpmd" dir="${basedir}">
-   <arg line="naming,unusedcode --reportfile ${basedir}/build/logs/pmd.xml" />
-  </exec>
+  <phpmd failonerror="off"> 
+   <formatter type="text" toFile="${basedir}/build/logs/pmd.xml" /> 
+   <ruleset>unusedcode</ruleset>
+   <ruleset>naming</ruleset> 
+  </phpmd>
  </target>
 
  <target name="phpcpd"
