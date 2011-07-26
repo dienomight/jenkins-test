@@ -3,8 +3,8 @@
 class Demo {
     
     function foo() {
-	$s = 'bar';	
-        return s;
+	$str = 'bar';	
+        return str;
     }
     
 }
