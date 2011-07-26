@@ -71,7 +71,7 @@
  <target name="phpmd"
 	description="Generate pmd.xml using PHPMD"> 
   <exec executable="phpmd">
-   <arg line="${basedir} ,naming, unusedcode --reportfile ${basedir}/build/logs/pmd.xml" />
+   <arg line="${basedir} xml naming, unusedcode --reportfile ${basedir}/build/logs/pmd.xml" />
   </exec>
  </target>
 
